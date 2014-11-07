@@ -1,0 +1,2 @@
+module Lightspeed
+end
