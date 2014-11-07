@@ -5,7 +5,7 @@ A RubyGem to test your HTTP server's performance.
 
 ### Ping
 
-Ping will issue the `ping` command with a count of 5. Then give back the average of the 5 pings as a result:
+Ping will issue the `ping` command with a count of 1 and return the result.
 
 ```ruby
 require 'lightspeed/ping'

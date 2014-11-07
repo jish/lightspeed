@@ -12,7 +12,7 @@ module Lightspeed
     end
 
     def ping(server)
-      command_runner.run_command("ping", "-c", "5", server)
+      command_runner.run_command("ping", "-c", "1", server)
       process_output(command_runner.output).avg
     end
 
